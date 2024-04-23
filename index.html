@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player e Registratore MP3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <button class="btn" onclick="playSound('audio1')">Play Sound 1</button>
+    <button class="btn" onclick="playSound('audio2')">Play Sound 2</button>
+    <button class="btn" onclick="startRecording()">Start Recording</button>
+    <button class="btn" onclick="stopRecording()">Stop Recording and Download</button>
+  </div>
+
+  <audio id="audio1" src="audio1.wav"></audio>
+  <audio id="audio2" src="audio2.wav"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
